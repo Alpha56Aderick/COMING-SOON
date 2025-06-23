@@ -1,10 +1,12 @@
+@import url('https://fonts.google.com/specimen/Josefin+Sans&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    background-color:  hsl(0, 40%, 82%);
+    background-color: white;
+    font-family:Josefin;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,9 +18,13 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: hsl(0, 40%, 92%);
+    margin: 2.5rem;
     gap:1.25rem;
     width: 100%;
+}
+.card-logo{
+    display: flex;
+    align-self: flex-start;
 }
 .page-content{
     text-align: center;
@@ -30,15 +36,49 @@ body{
     width: 100%;
 }
 .heading{
+    color: hsl(0, 36%, 70%);
     display: flex;
     flex-direction: column;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
+    flex-wrap: wrap;
     text-align: center;
-    margin: 1.25rem;
+    margin:2.5rem 2.5rem 0rem 2.5rem ;
+    font-weight: 100;
+}
+.highlight{
+    color: hsl(0, 6%, 24%);
+    font-weight: 600;
+
 }
 .description{
-    margin: 0rem 1.25rem;
-    font-size: 0.65rem;
+    color:hsl(0, 36%, 70%);
+    margin: 0rem 1.75rem;
+    padding: 16px;
+    font-size: 0.75rem;
     text-align: center;
+    gap: 0.25rem;
 
+}
+.email-form{
+    padding: 1.5rem;
+}
+.email-input{
+    padding:0.55rem 2.5rem;
+    border-radius: 0.75rem;
+    border: none;
+}
+.submit-button{
+    padding: 0.25rem 1.25rem;
+    border-radius: 1rem;
+    border: none;
+    color:white;
+    background-color: pink;
+
+}
+@media (min-width:600px) {
+    .coming-soon-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

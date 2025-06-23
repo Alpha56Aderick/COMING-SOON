@@ -1,4 +1,4 @@
-@import url('https://fonts.google.com/specimen/Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@
 }
 body{
     background-color: white;
-    font-family:Josefin;
+    font-family: "Josefin Sans", sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,6 +25,7 @@ body{
 .card-logo{
     display: flex;
     align-self: flex-start;
+    margin-left:1.5rem;
 }
 .hero-image{
     content: url(./images/hero-mobile.jpg);

@@ -9,11 +9,7 @@ body{
     background-image: url('./images/bg-pattern-desktop.svg');
     background-size: cover;  
     font-family: "Josefin Sans", sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 100vh;
+
 }
 .coming-soon-card{
     gap:1.25rem;
@@ -23,6 +19,7 @@ body{
     display: flex;
     align-self: flex-start;
     margin-left:1.5rem;
+    margin-top: 1rem;
 }
 .hero-image{
     content: url(./images/hero-mobile.jpg);
@@ -31,6 +28,13 @@ body{
     text-align: center;
     max-width: 100vw;
     max-height: 100vh;
+}
+.page-context{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 1rem;
+
 }
 .hero-image{
     width: 100%;
@@ -75,9 +79,9 @@ body{
     background-color: pink;
 
 }
-@media (min-width:600px) {
+@media (min-width:680px) {
     body{
-        min-height: 100vh;      
+        min-height: 100vh;    
     }
     .coming-soon-card{
         display: grid;
@@ -85,8 +89,9 @@ body{
     }
     .hero-image{
     content: url(./images/hero-desktop.jpg);
+    max-width: 40%;
     height: 100vh;
-    object-fit: cover;
+    overflow: hidden;
     }
     .page-content{
         display: flex;
@@ -94,6 +99,9 @@ body{
         justify-content: center;
         gap:2.5rem;
 
+    }
+    .page-context{
+        position: relative;
     }
     .heading{
         display: flex;

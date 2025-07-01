@@ -87,6 +87,10 @@ body{
         display: grid;
         grid-column: 60% 40%;
     }
+    .card-logo{
+        margin: 0rem;
+
+    }
     .hero-image{
     content: url(./images/hero-desktop.jpg);
     max-width: 40%;
@@ -100,13 +104,30 @@ body{
         gap:2.5rem;
 
     }
+    .page-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        max-width: 400px;
+        margin: 0rem;
+    }
     .page-context{
         position: relative;
+    }
+    .description{
+        padding: 0rem;
+        margin: 0rem;
     }
     .heading{
         display: flex;
         justify-content: flex-start;
         align-items: center;
         gap:1rem;
+        margin: 0rem;
+        max-width: 259px;
+    }
+    .email-form{
+        padding: 0rem;
     }
 }

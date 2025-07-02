@@ -11,23 +11,35 @@ body{
     font-family: "Josefin Sans", sans-serif;
 
 }
+
 .coming-soon-card{
     gap:1.25rem;
     width: 100%;
 }
+
 .card-logo{
     display: flex;
     align-self: flex-start;
     margin-left:1.5rem;
     margin-top: 1rem;
 }
+
 .hero-image{
     content: url(./images/hero-mobile.jpg);
 }
+
 .page-content{
     text-align: center;
     max-width: 100vw;
     max-height: 100vh;
+}
+.page-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    margin: 0rem 1.5rem;
 }
 .page-context{
     display: flex;

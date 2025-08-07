@@ -51,7 +51,7 @@ body{
 .hero-image{
     width: 100%;
 }
-.heading{
+.headings{
     color: hsl(0, 36%, 70%);
     display: flex;
     flex-direction: column;
@@ -104,11 +104,25 @@ body{
     .page-context{
         grid-column: 1/2;
         grid-row: 1/1;
+        overflow: hidden;
+        position: relative;
+    }
+    .logo{
+        position: absolute;
+        left:20%; top:8%;
     }
     .page-content{
         grid-column: 2/3;
     }
-
+    .headings{
+        position: absolute;
+        left: 20%; top: 15%;
+    }
+    .highlight
+    .description{
+        position: absolute;
+        left: 20%; top: 35%;
+    }
     .hero-image{
     content: url(./images/hero-desktop.jpg);
     overflow: hidden;
